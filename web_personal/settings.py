@@ -25,8 +25,7 @@ SECRET_KEY = '^ce1o)sam8$=t%r0bv30yz(0q6n3kfmar7ny&c*q8kd+ovrbij'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['reydecop.pythonanywhere.com','localhost']
 
 # Application definition
 
@@ -120,6 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# MEDIA FILES
 
 MEDIA_URL = '/media/'
 
